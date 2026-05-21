@@ -1,0 +1,19 @@
+{
+  "name": "@gitagentic/agent-sdk",
+  "version": "0.1.0",
+  "description": "GitAgentic Agent SDK — connect AI agents to the decentralized git network",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": ["dist"],
+  "dependencies": {
+    "node-fetch": "2.7.0"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "@types/node": "20.12.12"
+  }
+}
